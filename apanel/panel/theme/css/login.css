@@ -1,0 +1,28 @@
+BODY {margin: 0; padding: 0; background-color: #FAFAFA; font: 13px/1.5em sans-serif;}
+.clear {clear: both;}
+#top {background: -moz-linear-gradient(center top , #366FAC 0pt, #184B82 100%) repeat scroll 0 0 transparent; border-bottom: 1px solid #0D3259; box-shadow: 0 2px 5px rgba(17, 16, 13, 0.5); height: 359px;}
+#loginBg {background: url("../images/login-bg.png") repeat scroll 0 0 transparent; height: 167px; left: 0; margin: 0 auto; position: absolute; right: 0; top: 0; width: 790px; z-index: 99;}
+h1 {color: #FFFFFF; font-size: 40px; font-weight: bold; text-align: center; text-shadow: 0 0 5px rgba(10, 50, 92, 0.75); left: 0; margin: 0; position: absolute; right: 0; top: 110px; z-index: 101; }
+h2 {color: #FFFFFF; font-size: 40px; font-weight: bold; text-align: center; text-shadow: 0 0 5px rgba(10, 50, 92, 0.75); left: 0; margin: 0; position: absolute; right: 0; top: 180px; z-index: 101; font-style: italic;}
+.loginWrapper {left: 0; margin: 0 auto; position: absolute; right: 0; top: 250px; width: 400px; z-index: 101;}
+.box {margin: 0 auto; position: relative; z-index: 110; margin-top: 15px;}
+.header.grey {background: url("../images/login-bg-header.png") repeat scroll 0 0 transparent; border-color: #C8C8C8; filter: none;		border-radius: 3px 3px 0 0; border-style: solid solid none; border-width: 1px 1px 0; box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset; height: 34px; line-height: 34px;}
+.header.grey h3 {color: #383838; text-shadow: none; font-size: 13px; font-weight: 700;background: url("../images/divider-header.png") no-repeat scroll left top transparent !important; display: inline-block; float: left; margin: 0 0 0 8px; padding: 0 0 0 10px; }
+.box .header img {-moz-user-select: none; display: inline-block; float: left; margin: 9px auto 9px 8px;}
+form .section {background: -moz-linear-gradient(center top , #F6F6F6 0pt, #F1F1F1 100%) repeat scroll 0 0 transparent; border-bottom: 1px solid #E7E7E7; border-top: 1px solid #FFFFFF; margin: 0; width: 100%; float: left;}
+label {float: left; margin-left: 10px; margin-top: 12px; width: 16%; color: #666666; font-size: 12px; font-weight: 700; text-shadow: 0 1px 0 #FFFFFF;}
+input {font-size: 12px; color: #54616A; width: 100%; background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #C8C8C8; border-radius: 5px 5px 5px 5px; box-shadow: 0 2px 3px 0 rgba(18, 16, 11, 0.13) inset; display: block; margin: 10px 0; outline: 0 none; padding: 5px 0;}
+div.section div {border-left: 1px solid #E7E7E7; float: right; padding: 0 10px 0 1%; width: 75%;}
+.actions {clear: both; display: block;		background: url("../images/bg-action.png") repeat-x scroll 0 0 #F7F7F7; border: 1px solid #C8C8C8; border-radius: 0 0 3px 3px;}
+button, input[type="submit"], input[type="reset"], a.button {background: url("../images/btn-bg.png") repeat scroll 0 0 padding-box transparent; border: 1px solid #C7C7C7; border-radius: 5px 5px 5px 5px; box-shadow: 0 1px 1px 0 rgba(18, 16, 11, 0.1) !important; display: block; height: 25px; line-height: 25px; padding: 0 10px; width: auto; cursor: pointer;		color: #58646D; font-size: 12px; margin: 5px 0;}
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, a.button:hover {background: url("../images/btn-bg-hover.png") repeat scroll 0 0 padding-box transparent; color: #ffffff;}
+.actionsRight {float: right; margin: 0px 10px 0px 5px;}
+.actionsLeft {float: left; margin: 0px 10px 0px 5px;}
+.shadow {background: url("../images/box-shadow.png") repeat scroll 0 0 transparent; bottom: -10px; height: 18px; margin: -7px auto 0; width: 372px; z-index: 99;}
+.content {border-color: #C8C8C8; border-style: solid; border-width: 1px; border-bottom-style: none;}
+input:active, input:focus, textarea:active, textarea:focus {box-shadow: 0 2px 3px 0 rgba(18, 16, 11, 0.13) inset, 0 0 5px 0 rgba(58, 111, 163, 0.75); border: 1px solid #A3A3A3;}
+.alert {margin: 0; color: #675100; background: url("../images/bg-warning.png") repeat-x scroll 0 0 #FFE68B; text-shadow: 0 1px 1px #FFFFFF; border: 1px solid #C9AB40; box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.65) inset; clear: both; padding: 7px 15px 7px 30px; position: relative; border-left: medium none; border-right: medium none;}
+.warning {background: url("../images/icons/exclamation.png") repeat scroll 0 0 transparent; display: inline-block; height: 16px; left: 7px; margin-top: -8px; position: absolute; top: 50%; width: 16px;}
+input.error {color: #870D0D;}
+input.error, textarea.error {border: 1px solid #870D0D; border-radius: 5px 5px 0 0; box-shadow: none; margin-bottom: 0;}
+label.error {display: block; width: 288.5px; color: #FFFFFF !important; text-shadow: 0 1px 1px #460909; background: url("../images/bg-error.png") repeat-x scroll 0 0 #B13636; border: 1px solid #870D0D; border-radius: 0 0 5px 5px; display: block; margin: 0 0 10px; padding: 5px; position: relative; top: -1px;}

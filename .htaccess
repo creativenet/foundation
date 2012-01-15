@@ -1,0 +1,15 @@
+ErrorDocument 404 /404.htm
+RewriteEngine on
+
+RewriteBase		/foundation/
+
+# ESCEPE RULES
+RewriteRule   ^apanel/$												apanel/index.php  [QSA,L]
+RewriteRule   ^apanel/(.*).htm								apanel/index.php?url=$1  [QSA,L]
+
+# UPLOAD
+RewriteRule   ^upload/(.*)										index.php?file=$1  [QSA,L]
+
+# GLOBAL
+RewriteRule   ^$															index.php?url=index.htm  [QSA,L]
+RewriteRule   [/]*(.*\.htm)$									index.php?url=$1  [QSA,L]
